@@ -49,7 +49,7 @@ public class Feeder {
         for (int i=0; i<numDays; i++) {
             simulateOneDay(numBirds);
             if (currentFood > 0) {
-                days = days + 1;
+                days++;
             }
         }
         return days;
